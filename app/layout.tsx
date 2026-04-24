@@ -4,6 +4,7 @@ import { ViewTransitions } from "next-view-transitions";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Ingeniero de Software | Jose Luis Flores",
@@ -38,7 +39,10 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             <Header />
-            <main className="mb-8">{children}</main>
+            <main className="mb-8">
+              {children}
+              <Analytics />
+            </main>
           </ThemeProvider>
         </body>
       </html>
