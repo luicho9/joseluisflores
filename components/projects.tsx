@@ -4,7 +4,7 @@ export function Projects() {
   return (
     <section className="flex flex-col mt-12">
       <div className="border-b py-2">
-        <h2 className="font-bold">Proyectos</h2>
+        <h2 className="font-bold">Projects</h2>
       </div>
       <div className="mt-4 flex flex-col gap-3">
         <div className="sm:flex sm:items-baseline sm:justify-between sm:gap-2">
@@ -16,7 +16,7 @@ export function Projects() {
             Factura Simple
           </Link>
           <p className="text-primary/80">
-            App de facturación autoalojable con exportación a PDF.
+            Self-hostable invoicing app with PDF export.
           </p>
         </div>
         <div className="sm:flex sm:items-baseline sm:justify-between sm:gap-2">
@@ -28,7 +28,7 @@ export function Projects() {
             Kapso Chat SDK
           </Link>
           <p className="text-primary/80">
-            WhatsApp adapter para Chat SDK via Kapso.
+            WhatsApp adapter for Chat SDK via Kapso.
           </p>
         </div>
         <div className="sm:flex sm:items-baseline sm:justify-between sm:gap-2">
@@ -40,7 +40,7 @@ export function Projects() {
             Flick Bot
           </Link>
           <p className="text-primary/80">
-            WhatsApp Bot para buscar películas sin salir del chat.
+            WhatsApp bot for finding movies without leaving the chat.
           </p>
         </div>
       </div>

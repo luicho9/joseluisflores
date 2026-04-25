@@ -7,8 +7,9 @@ import { Header } from "@/components/header";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Ingeniero de Software | Jose Luis Flores",
-  description: "Portfolio de Jose Luis Flores, Ingeniero de Software",
+  title: "AI Engineer | Jose Luis Flores",
+  description:
+    "Jose Luis Flores' portfolio, AI Engineer building production LLM apps, RAG pipelines, and WhatsApp agents.",
 };
 
 const geistSans = Geist({
@@ -28,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <ViewTransitions>
-      <html lang="es" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased bg-card`}
         >

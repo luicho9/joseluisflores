@@ -5,7 +5,7 @@ export function About() {
   return (
     <section className="flex flex-col items-center gap-4 mt-6 md:flex-row md:gap-6">
       <p className="text-primary/80 flex-1">
-        Cofundador de{" "}
+        Co-founder of{" "}
         <Link
           href="https://www.invsjd.com"
           className="underline decoration-muted-foreground hover:decoration-primary text-primary"
@@ -13,9 +13,9 @@ export function About() {
         >
           Inversiones San Juan Diego
         </Link>
-        . Escribo software porque me gusta que la gente lo use y le sirva.
-        Ahora estoy metido en AI, agentes de WhatsApp y productos para
-        Centroamérica.
+        . I build production AI systems with TypeScript, from RAG pipelines
+        over real business data to WhatsApp agents and AI products for Central
+        America.
       </p>
       <AsciiDuck />
     </section>

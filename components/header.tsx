@@ -7,7 +7,7 @@ export function Header() {
       <nav className="flex border-b py-4">
         <ul className="flex gap-4">
           <li className="text-muted-foreground">
-            <a href="mailto:jose.flores@invsjd.com">Correo</a>
+            <a href="mailto:jose.flores@invsjd.com">Email</a>
           </li>
           <li className="text-muted-foreground">
             <a href="https://github.com/luicho9" target="_blank">

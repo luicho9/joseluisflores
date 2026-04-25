@@ -4,7 +4,7 @@ export function Education() {
   return (
     <section className="flex flex-col mt-12">
       <div className="border-b py-2">
-        <h2 className="font-bold">Educación</h2>
+        <h2 className="font-bold">Education</h2>
       </div>
       <div className="mt-4">
         <div className="flex justify-between w-full">
@@ -19,10 +19,10 @@ export function Education() {
           </p>
         </div>
         <p className="text-primary/80">
-          Ingeniería en Ciencias de la Computación
+          Computer Science Engineering
         </p>
         <p className="mt-2 text-primary/80">
-          Premio &ldquo;Excelencia Académica&rdquo; 2023 y 2025.
+          &ldquo;Academic Excellence&rdquo; award, 2023 and 2025.
         </p>
       </div>
     </section>

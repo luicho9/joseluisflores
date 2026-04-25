@@ -2,17 +2,17 @@ import Link from "next/link";
 
 export function Stack() {
   const items = [
-    { name: "TypeScript", description: "JavaScript con tipos.", href: "https://www.typescriptlang.org" },
-    { name: "Next.js", description: "Full-stack con React.", href: "https://nextjs.org" },
-    { name: "React", description: "Componentes declarativos.", href: "https://react.dev" },
-    { name: "Tailwind CSS", description: "Estilos con utilidades.", href: "https://tailwindcss.com" },
+    { name: "TypeScript", description: "Typed JavaScript.", href: "https://www.typescriptlang.org" },
+    { name: "Next.js", description: "Full-stack React.", href: "https://nextjs.org" },
+    { name: "React", description: "Declarative components.", href: "https://react.dev" },
+    { name: "Tailwind CSS", description: "Utility-first styling.", href: "https://tailwindcss.com" },
     { name: "Drizzle ORM", description: "SQL type-safe.", href: "https://orm.drizzle.team" },
-    { name: "PostgreSQL", description: "Base de datos relacional.", href: "https://www.postgresql.org" },
-    { name: "Redis", description: "Cache y sesiones.", href: "https://redis.io" },
-    { name: "Vercel AI SDK", description: "SDK universal para apps con AI.", href: "https://ai-sdk.dev" },
-    { name: "Codex", description: "Agente de código de OpenAI.", href: "https://openai.com/codex" },
-    { name: "Claude Code", description: "Agente de código de Anthropic.", href: "https://docs.anthropic.com/en/docs/claude-code/overview" },
-    { name: "Cursor", description: "Editor con AI integrado.", href: "https://www.cursor.com" },
+    { name: "PostgreSQL", description: "Relational database.", href: "https://www.postgresql.org" },
+    { name: "Redis", description: "Cache and sessions.", href: "https://redis.io" },
+    { name: "Vercel AI SDK", description: "Universal SDK for AI apps.", href: "https://ai-sdk.dev" },
+    { name: "Codex", description: "OpenAI coding agent.", href: "https://openai.com/codex" },
+    { name: "Claude Code", description: "Anthropic coding agent.", href: "https://docs.anthropic.com/en/docs/claude-code/overview" },
+    { name: "Cursor", description: "AI-integrated editor.", href: "https://www.cursor.com" },
   ];
 
   return (

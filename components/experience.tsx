@@ -5,7 +5,7 @@ export function Experience() {
   return (
     <section className="flex flex-col mt-8">
       <div className="border-b py-2">
-        <h2 className="font-bold">Experiencia</h2>
+        <h2 className="font-bold">Experience</h2>
       </div>
       <div className="flex flex-col sm:flex-row sm:items-start mt-4 gap-4">
         <div className="flex aspect-square w-12 translate-y-0.5 items-center justify-center rounded-lg border text-foreground">
@@ -20,12 +20,12 @@ export function Experience() {
               </span>
             </h2>
             <p className="text-primary/80 flex items-center gap-1">
-              Ago 2025 <ArrowRight /> Presente
+              Aug 2025 <ArrowRight /> Present
             </p>
           </div>
-          <p className="text-primary/80">Cofundador e Ingeniero de Software</p>
+          <p className="text-primary/80">Co-founder and AI Engineer</p>
           <p className="mt-2 text-primary/80">
-            Traduje libros del latín al español con AI en{" "}
+            Translated books from Latin to Spanish with AI at{" "}
             <Link
               href="https://www.bibliotecatolica.com"
               target="_blank"
@@ -33,15 +33,15 @@ export function Experience() {
             >
               Bibliotecatolica
             </Link>
-            . Diseñé y desarrollé el{" "}
+            . Designed and developed the{" "}
             <Link
               href="https://www.invsjd.com"
               target="_blank"
               className="underline decoration-muted-foreground hover:decoration-primary text-primary"
             >
-              sitio corporativo
+              corporate website
             </Link>
-            . Creé{" "}
+            . Built{" "}
             <Link
               href="https://www.datafluid.ai"
               target="_blank"
@@ -49,23 +49,23 @@ export function Experience() {
             >
               Datafluid
             </Link>
-            , un ecosistema con noticiero,{" "}
+            , an ecosystem with a news product,{" "}
             <Link
               href="https://www.datafluid.ai/tu-ia-24-7"
               target="_blank"
               className="underline decoration-muted-foreground hover:decoration-primary text-primary"
             >
-              asistentes personales
+              personal assistants
             </Link>{" "}
-            y{" "}
+            and{" "}
             <Link
               href="https://www.datafluid.ai/soluciones"
               target="_blank"
               className="underline decoration-muted-foreground hover:decoration-primary text-primary"
             >
-              soluciones de AI para Centroamérica
+              AI solutions for Central America
             </Link>
-            . Automaticé WhatsApp con{" "}
+            . Automated WhatsApp with{" "}
             <Link
               href="https://www.tubotya.com"
               target="_blank"
@@ -73,7 +73,7 @@ export function Experience() {
             >
               TuBotYa
             </Link>{" "}
-            y lancé{" "}
+            and launched{" "}
             <Link
               href="https://www.sabbatismus.com"
               target="_blank"
