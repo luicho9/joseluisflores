@@ -19,7 +19,7 @@ export function Education() {
           </p>
         </div>
         <p className="text-primary/80">Computer Science Engineering</p>
-        <p className="mt-2 text-primary/80">Summa Cum Laude.</p>
+        <p className="mt-1 text-sm text-primary/60">Summa Cum Laude.</p>
       </div>
     </section>
   );
