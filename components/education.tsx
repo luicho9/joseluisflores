@@ -18,12 +18,8 @@ export function Education() {
             Sep 2022 <ArrowRight /> Jul 2026
           </p>
         </div>
-        <p className="text-primary/80">
-          Computer Science Engineering
-        </p>
-        <p className="mt-2 text-primary/80">
-          &ldquo;Academic Excellence&rdquo; award, 2023 and 2025.
-        </p>
+        <p className="text-primary/80">Computer Science Engineering</p>
+        <p className="mt-2 text-primary/80">Summa Cum Laude.</p>
       </div>
     </section>
   );
