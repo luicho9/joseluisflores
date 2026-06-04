@@ -11,6 +11,36 @@ export function Invsjd({ size = 32 }: { size?: number }) {
   );
 }
 
+export function MoxieHealthGroup({ size = 32 }: { size?: number }) {
+  return (
+    <svg
+      aria-label="The Moxie Health Group"
+      fill="none"
+      height={size}
+      role="img"
+      viewBox="0 0 120 120"
+      width={size}
+    >
+      <path
+        d="M35.8 39.5c7.3 4.8 13.5 11.1 18.5 18.9-5.8 5.6-13 8.1-21.4 7.4-8.2-.7-17-5.3-26.3-13.7 4.9-7.6 10.9-13.4 17.9-17.3 4-2.2 7.8-.7 11.3 4.7Z"
+        fill="currentColor"
+      />
+      <path
+        d="M35.8 80.5c7.3-4.8 13.5-11.1 18.5-18.9-5.8-5.6-13-8.1-21.4-7.4-8.2.7-17 5.3-26.3 13.7 4.9 7.6 10.9 13.4 17.9 17.3 4 2.2 7.8.7 11.3-4.7Z"
+        fill="currentColor"
+      />
+      <path
+        d="M84.2 39.5c-7.3 4.8-13.5 11.1-18.5 18.9 5.8 5.6 13 8.1 21.4 7.4 8.2-.7 17-5.3 26.3-13.7-4.9-7.6-10.9-13.4-17.9-17.3-4-2.2-7.8-.7-11.3 4.7Z"
+        fill="currentColor"
+      />
+      <path
+        d="M84.2 80.5c-7.3-4.8-13.5-11.1-18.5-18.9 5.8-5.6 13-8.1 21.4-7.4 8.2.7 17 5.3 26.3 13.7-4.9 7.6-10.9 13.4-17.9 17.3-4 2.2-7.8.7-11.3-4.7Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 export function ArrowRight() {
   return (
     <svg

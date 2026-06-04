@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" role="img" aria-labelledby="title">
+  <title id="title">The Moxie Health Group</title>
+  <g fill="#000" transform="translate(16 31)">
+    <path d="M31.8 8.5c7.3 4.8 13.5 11.1 18.5 18.9-5.8 5.6-13 8.1-21.4 7.4-8.2-.7-17-5.3-26.3-13.7C7.5 13.5 13.5 7.7 20.5 3.8c4-2.2 7.8-.7 11.3 4.7Z" />
+    <path d="M31.8 49.5c7.3-4.8 13.5-11.1 18.5-18.9-5.8-5.6-13-8.1-21.4-7.4-8.2.7-17 5.3-26.3 13.7 4.9 7.6 10.9 13.4 17.9 17.3 4 2.2 7.8.7 11.3-4.7Z" />
+    <path d="M80.2 8.5C72.9 13.3 66.7 19.6 61.7 27.4c5.8 5.6 13 8.1 21.4 7.4 8.2-.7 17-5.3 26.3-13.7-4.9-7.6-10.9-13.4-17.9-17.3-4-2.2-7.8-.7-11.3 4.7Z" />
+    <path d="M80.2 49.5C72.9 44.7 66.7 38.4 61.7 30.6c5.8-5.6 13-8.1 21.4-7.4 8.2.7 17 5.3 26.3 13.7-4.9 7.6-10.9 13.4-17.9 17.3-4 2.2-7.8.7-11.3-4.7Z" />
+  </g>
+  <g fill="#000" font-family="Arial Rounded MT Bold, Avenir Next, Nunito Sans, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="126" y="33" font-size="19" letter-spacing="-.2">the</text>
+    <text x="126" y="67" font-size="43" letter-spacing="-2.5">moxie</text>
+    <text x="126" y="100" font-size="43" letter-spacing="-2.5">health</text>
+    <text x="239" y="111" font-size="20" letter-spacing="-.8">group</text>
+  </g>
+</svg>

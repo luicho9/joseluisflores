@@ -7,9 +7,9 @@ import { Header } from "@/components/header";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "AI Engineer | Jose Luis Flores",
+  title: "Software Engineer | Jose Luis Flores",
   description:
-    "Jose Luis Flores' portfolio, AI Engineer building production LLM apps, RAG pipelines, and WhatsApp agents.",
+    "Jose Luis Flores' portfolio, software engineer building production software and healthcare products.",
 };
 
 const geistSans = Geist({

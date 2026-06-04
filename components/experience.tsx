@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Invsjd } from "./icons";
+import { ArrowRight, Invsjd, MoxieHealthGroup } from "./icons";
 
 export function Experience() {
   return (
@@ -7,7 +7,27 @@ export function Experience() {
       <div className="border-b py-2">
         <h2 className="font-bold">Experience</h2>
       </div>
-      <div className="flex flex-col sm:flex-row sm:items-start mt-4 gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-start mt-8 gap-4">
+        <div className="flex aspect-square w-12 translate-y-0.5 items-center justify-center rounded-lg border text-foreground">
+          <MoxieHealthGroup />
+        </div>
+        <div className="flex flex-col flex-1">
+          <div className="flex justify-between w-full">
+            <h2>
+              <span className="sm:hidden">Moxie</span>
+              <span className="hidden sm:inline">The Moxie Health Group</span>
+            </h2>
+            <p className="text-primary/80 flex items-center gap-1">
+              Jun 2026 <ArrowRight /> Present
+            </p>
+          </div>
+          <p className="text-primary/80">Junior Software Engineer</p>
+          <p className="mt-2 text-primary/80">
+            Building healthcare software products. Stay tuned.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col sm:flex-row sm:items-start mt-8 gap-4">
         <div className="flex aspect-square w-12 translate-y-0.5 items-center justify-center rounded-lg border text-foreground">
           <Invsjd />
         </div>
@@ -20,7 +40,7 @@ export function Experience() {
               </span>
             </h2>
             <p className="text-primary/80 flex items-center gap-1">
-              Aug 2025 <ArrowRight /> Present
+              Aug 2025 <ArrowRight /> May 2026
             </p>
           </div>
           <p className="text-primary/80">Co-founder and AI Engineer</p>
