@@ -21,7 +21,7 @@ export function Experience() {
               Jun 2026 <ArrowRight /> Present
             </p>
           </div>
-          <p className="text-primary/80">Junior Software Engineer</p>
+          <p className="text-primary/80">Software Engineer</p>
           <p className="mt-2 text-primary/80">
             Building healthcare software products. Stay tuned.
           </p>
@@ -43,7 +43,7 @@ export function Experience() {
               Aug 2025 <ArrowRight /> May 2026
             </p>
           </div>
-          <p className="text-primary/80">Co-founder and AI Engineer</p>
+          <p className="text-primary/80">Co-founder and Software Engineer</p>
           <p className="mt-2 text-primary/80">
             Translated books from Latin to Spanish with AI at{" "}
             <Link
@@ -53,55 +53,10 @@ export function Experience() {
             >
               Bibliotecatolica
             </Link>
-            . Designed and developed the{" "}
-            <Link
-              href="https://www.invsjd.com"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              corporate website
-            </Link>
-            . Built{" "}
-            <Link
-              href="https://www.datafluid.ai"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              Datafluid
-            </Link>
-            , an ecosystem with a news product,{" "}
-            <Link
-              href="https://www.datafluid.ai/tu-ia-24-7"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              personal assistants
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="https://www.datafluid.ai/soluciones"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              AI solutions for Central America
-            </Link>
-            . Automated WhatsApp with{" "}
-            <Link
-              href="https://www.tubotya.com"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              TuBotYa
-            </Link>{" "}
-            and launched{" "}
-            <Link
-              href="https://www.sabbatismus.com"
-              target="_blank"
-              className="underline decoration-muted-foreground hover:decoration-primary text-primary"
-            >
-              Sabbatismus
-            </Link>
-            .
+            . Designed and developed the corporate website. Built Datafluid, an
+            ecosystem with a news product, personal assistants and AI solutions
+            for Central America. Automated WhatsApp with TuBotYa and launched
+            Sabbatismus.
           </p>
         </div>
       </div>
