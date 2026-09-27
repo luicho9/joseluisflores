@@ -1,0 +1,59 @@
+---
+import ArrowRight from "@/components/icons/ArrowRight.astro";
+import MoxieHealthGroup from "@/components/MoxieHealthGroup.astro";
+---
+
+<section class="flex flex-col mt-8">
+  <div class="border-b py-2">
+    <h2 class="font-bold">Experience</h2>
+  </div>
+  <div class="flex flex-col sm:flex-row sm:items-start mt-8 gap-4">
+    <div class="flex aspect-square w-12 translate-y-0.5 items-center justify-center rounded-lg border text-foreground">
+      <MoxieHealthGroup />
+    </div>
+    <div class="flex flex-col flex-1">
+      <div class="flex justify-between w-full">
+        <h2>
+          <span class="sm:hidden">Moxie</span>
+          <span class="hidden sm:inline">The Moxie Health Group</span>
+        </h2>
+        <p class="text-primary/80 flex items-center gap-1">
+          Jun 2026 <ArrowRight /> Present
+        </p>
+      </div>
+      <p class="text-primary/80">Software Engineer</p>
+      <p class="mt-2 text-primary/80">
+        Building healthcare software products. Stay tuned.
+      </p>
+    </div>
+  </div>
+  <div class="flex flex-col sm:flex-row sm:items-start mt-8 gap-4">
+    <div class="flex aspect-square w-12 translate-y-0.5 items-center justify-center rounded-lg border text-foreground">
+      <img src="/invsjd.svg" alt="Inversiones San Juan Diego" width="32" height="32" />
+    </div>
+    <div class="flex flex-col flex-1">
+      <div class="flex justify-between w-full">
+        <h2>
+          <span class="sm:hidden">INVSJD</span>
+          <span class="hidden sm:inline">Inversiones San Juan Diego</span>
+        </h2>
+        <p class="text-primary/80 flex items-center gap-1">
+          Aug 2025 <ArrowRight /> May 2026
+        </p>
+      </div>
+      <p class="text-primary/80">Co-founder and Software Engineer</p>
+      <p class="mt-2 text-primary/80">
+        Translated books from Latin to Spanish with AI at{" "}
+        <a
+          href="https://www.bibliotecatolica.com"
+          target="_blank"
+          class="underline decoration-muted-foreground hover:decoration-primary text-primary"
+        >
+          Bibliotecatolica
+        </a>. Designed and developed the corporate website. Built Datafluid, an
+        ecosystem with a news product, personal assistants and AI solutions for
+        Central America. Automated WhatsApp with TuBotYa and launched Sabbatismus.
+      </p>
+    </div>
+  </div>
+</section>
