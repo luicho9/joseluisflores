@@ -1,14 +1,13 @@
 # Jose Luis Flores
 
-Personal portfolio built with Next.js, React, and Tailwind CSS.
+Personal portfolio built with Astro and Tailwind CSS.
 
 ## Stack
 
-- Next.js 16
-- React 19
+- Astro 7
 - Tailwind CSS 4
-- next-themes
-- next-view-transitions
+- Geist (via Fontsource)
+- Vercel Analytics
 
 ## Getting Started
 
@@ -24,27 +23,29 @@ Run the development server:
 pnpm dev
 ```
 
-Open `http://localhost:3000` in your browser.
+Open `http://localhost:4321` in your browser.
 
 ## Scripts
 
 ```bash
 pnpm dev
 pnpm build
-pnpm start
+pnpm preview
+pnpm check
 pnpm knip
 ```
 
 ## Project Structure
 
-- `app/` - Next.js app routes, layout, and global styles.
-- `components/` - Portfolio sections and shared UI components.
-- `lib/` - Shared utilities.
+- `src/pages/` - Astro routes.
+- `src/layouts/` - Base HTML layout.
+- `src/components/` - Portfolio sections and shared UI components.
+- `src/styles/` - Global styles and theme tokens.
 - `public/` - Static assets.
 
 ## Deployment
 
-The site is designed to deploy on Vercel or any platform that supports Next.js.
+The site is designed to deploy on Vercel or any static host. `pnpm build` outputs a fully static site to `dist/`.
 
 ## License
 

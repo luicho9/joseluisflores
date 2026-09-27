@@ -1,0 +1,30 @@
+<canvas
+  id="ascii-duck"
+  width="160"
+  height="160"
+  class="w-32 h-32 md:w-40 md:h-40 shrink-0"
+  aria-label="ASCII duck"></canvas>
+
+<script>
+  import { createAsciiRenderer } from "landing-effects";
+
+  const start = () => {
+    const canvas = document.getElementById("ascii-duck");
+    if (canvas instanceof HTMLCanvasElement) {
+      createAsciiRenderer({
+        canvas,
+        imageSrc: "/duck.png",
+        fontSize: 7,
+        brightnessBoost: 2.4,
+        parallaxStrength: 6,
+        colorFn: (l) => {
+          const v = Math.round(l * 220);
+          return `rgb(${v}, ${Math.round(v * 0.92)}, ${Math.round(v * 0.78)})`;
+        },
+      });
+    }
+  };
+
+  if ("requestIdleCallback" in window) requestIdleCallback(start, { timeout: 1000 });
+  else setTimeout(start, 200);
+</script>

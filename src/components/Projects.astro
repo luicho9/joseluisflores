@@ -1,0 +1,29 @@
+---
+const projects = [
+  { name: "Factura Simple", description: "Self-hostable invoicing app with PDF export.", href: "https://www.facturasimple.app/" },
+  { name: "Kapso Chat SDK", description: "WhatsApp adapter for Chat SDK via Kapso.", href: "https://github.com/luicho9/kapso-chat-sdk" },
+  { name: "Flick Bot", description: "WhatsApp bot for finding movies without leaving the chat.", href: "https://github.com/luicho9/flick-bot" },
+];
+---
+
+<section class="flex flex-col mt-12">
+  <div class="border-b py-2">
+    <h2 class="font-bold">Projects</h2>
+  </div>
+  <div class="mt-4 flex flex-col gap-3">
+    {
+      projects.map((project) => (
+        <div class="sm:flex sm:items-baseline sm:justify-between sm:gap-2">
+          <a
+            href={project.href}
+            target="_blank"
+            class="font-semibold hover:text-muted-foreground transition-colors shrink-0"
+          >
+            {project.name}
+          </a>
+          <p class="text-primary/80">{project.description}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>

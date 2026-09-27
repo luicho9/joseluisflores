@@ -1,0 +1,28 @@
+---
+import Analytics from "@vercel/analytics/astro";
+import geistLatin from "@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url";
+import Header from "@/components/Header.astro";
+import "@/styles/global.css";
+
+const title = "Software Engineer | Jose Luis Flores";
+const description =
+  "Jose Luis Flores' portfolio, software engineer building production software and healthcare products.";
+---
+
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preload" href={geistLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+  </head>
+  <body class="antialiased bg-card">
+    <Header />
+    <main class="mb-8">
+      <slot />
+    </main>
+    <Analytics />
+  </body>
+</html>
